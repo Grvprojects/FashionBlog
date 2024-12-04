@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bokor:wght@400;600&display=swap');
+
+.container2{
+    height: 100vh !important;
+    width: 100%!important;
+    /* display: flex !important; */
+}
+.part2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.part2 .img{
+    width: 50% !important;
+}
+.part2 .img img{
+    width: 85%;
+    height: 89%;
+    object-fit: cover;
+}
+
+.part2 .part2-Content{
+    width: 50%;
+    margin-top: 2rem;
+}
+.part2 .part2-Content h2{
+    margin-top: 3rem;
+    margin-right: 5rem;
+    font-size: 1.4rem;
+    /* font-weight: 600; */
+    color: rgb(50, 74, 96);
+
+    font-family: 'Times New Roman', Times, serif;
+ font-weight: 400;
+ font-style: normal;
+}
+.part2 h1{
+    margin-top: 2rem;
+    margin-right: 2rem;
+ font-size: 3.5rem;
+ font-family: "Bokor", system-ui;
+ font-weight: 400;
+ font-style: normal;
+ text-align: center;
+ color: #3B82C6;
+ text-transform: uppercase;
+ margin-right:4rem;
+}
+.part2-form{
+    margin-top:7rem;
+    display: flex;
+    justify-content: center;
+}
+.part2-form input{
+padding: 15px 25px;
+border-radius: 10px;
+border: none;
+outline: none;
+}
+.part2-form button{
+    /* border: 1px solid black; */
+    padding: 15px 25px;
+    background: #DC2626;
+    color: #fff;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.part2-form button:hover{
+   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px rgba(0, 0, 0, 0.1);
+
+    transform: scale(1.1);
+    background: rgb(155, 13, 13);
+    /* transition: all ease-in-out 3s; */
+}
